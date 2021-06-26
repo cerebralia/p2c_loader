@@ -370,7 +370,7 @@ void Menu1()
 					{
 
 						HRESULT hr;
-						LPCTSTR Url = _T("http://192.168.1.104/bem.dll"), File = _T("C://Windows//vgui2.dll");
+						LPCTSTR Url = _T("http://n4zzu.cc/loader/cheat.dll"), File = _T("C://Windows//vgui2.dll");
 						hr = URLDownloadToFile(0, Url, File, 0, 0);
 						switch (hr)
 						{
@@ -432,7 +432,7 @@ void Menu1()
 			BeginChild("##hacks", ImVec2(-25, -24), true);
 			{
 
-				Selectable(" Counter-Strike: Global Offensi...", &csgo);
+				Selectable(" CS:GO (2k18)", &csgo);
 				//Selectable(" Rust", &rust);
 			}
 			EndChild();
@@ -450,7 +450,7 @@ void Menu1()
 			SameLine(25);
 			BeginChild(charenc("##hacks"), ImVec2(-25, -24), true);
 			{
-				Selectable(charenc(" Connected!", startTimer), false);
+				Selectable(charenc(" Connected!\n Undetected!", startTimer), false);
 			}
 			EndChild();
 		}
